@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="68.998" tests="35" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo\target\test-classes;C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo\target\classes;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ggkee\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ggkee\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ggkee\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\ggkee\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\ggkee\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ggkee\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ggkee\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ggkee\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\ggkee\AppData\Local\Temp\surefire16740386903230911090\surefirebooter-20260607232819417_3.jar C:\Users\ggkee\AppData\Local\Temp\surefire16740386903230911090 2026-06-07T23-28-19_281-jvmRun1 surefire-20260607232819417_1tmp surefire_0-20260607232819417_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo\target\test-classes;C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo\target\classes;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ggkee\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ggkee\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ggkee\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\ggkee\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\ggkee\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\ggkee\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\ggkee\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ggkee\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ggkee\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ggkee\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ggkee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ggkee\AppData\Local\Temp\surefire16740386903230911090\surefirebooter-20260607232819417_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="ggkee"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ggkee\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ggkee\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\ggkee\OneDrive\Desktop\Student_portal\selenium-demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-24\bin;C:\Users\ggkee\Downloads\ffmpeg-2025-08-25-git-1b62f9d3ae-full_build\ffmpeg-2025-08-25-git-1b62f9d3ae-full_build\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\maven\bin;C:\Users\ggkee\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ggkee\AppData\Local\Programs\Python\Python313\;C:\Users\ggkee\AppData\Local\Microsoft\WindowsApps;C:\Users\ggkee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ggkee\AppData\Roaming\npm;C:\Users\ggkee\Downloads\flutter_windows_3.35.4-stable\flutter\bin;C:\Users\...\Desktop\SMART_CROP\smart_crop_advan;D:\Users\...\Desktop\SMART_CROP\smart_crop_advan;C:\Users\ggkee\Downloads\Release-25.07.0-0\poppler-25.07.0\Library\bin;C:\Program Files (x86)\Nmap;c:\Users\ggkee\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="EmptyPassword" classname="com.testing.AppTest" time="0.207">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="InvalidPassword" classname="com.testing.AppTest" time="0.215"/>
+  <testcase name="InvalidUser" classname="com.testing.AppTest" time="0.21"/>
+  <testcase name="loginPageTitlet" classname="com.testing.AppTest" time="0.009"/>
+  <testcase name="validCridential" classname="com.testing.AppTest" time="0.414"/>
+  <testcase name="validateEmptyBox" classname="com.testing.AppTest" time="0.224"/>
+  <testcase name="verifyPasswordPlaceholder" classname="com.testing.AppTest" time="0.059"/>
+  <testcase name="verifyUsernamePlaceholder" classname="com.testing.AppTest" time="0.056"/>
+  <testcase name="CourseEnquiryPageTitlet" classname="com.testing.CourseEnquiryPageTest" time="0.016"/>
+  <testcase name="courseTest" classname="com.testing.CourseEnquiryPageTest" time="0.59"/>
+  <testcase name="invalidemail" classname="com.testing.CourseEnquiryPageTest" time="0.408"/>
+  <testcase name="ivalidmobile" classname="com.testing.CourseEnquiryPageTest" time="0.489"/>
+  <testcase name="usernameTest" classname="com.testing.CourseEnquiryPageTest" time="0.3"/>
+  <testcase name="validateEmptyBox" classname="com.testing.CourseEnquiryPageTest" time="0.192"/>
+  <testcase name="verifyCourseSelection" classname="com.testing.CourseEnquiryPageTest" time="1.017"/>
+  <testcase name="verifyemailPlaceholder" classname="com.testing.CourseEnquiryPageTest" time="0.061"/>
+  <testcase name="verifymobilePlaceholder" classname="com.testing.CourseEnquiryPageTest" time="0.073"/>
+  <testcase name="verifystudentNamePlaceholder" classname="com.testing.CourseEnquiryPageTest" time="0.06"/>
+  <testcase name="CalculateJavaFullStackfee" classname="com.testing.FeeCalculatorPageTest" time="0.589"/>
+  <testcase name="CalculateSoftwareTestingfee" classname="com.testing.FeeCalculatorPageTest" time="0.627"/>
+  <testcase name="FeeCalculatorPageTitlet" classname="com.testing.FeeCalculatorPageTest" time="0.019"/>
+  <testcase name="validateEmptyBox" classname="com.testing.FeeCalculatorPageTest" time="0.246"/>
+  <testcase name="verifyCourseSelection" classname="com.testing.FeeCalculatorPageTest" time="0.415"/>
+  <testcase name="verifyDiscountNumber" classname="com.testing.FeeCalculatorPageTest" time="0.603"/>
+  <testcase name="verifyDiscountNumber1" classname="com.testing.FeeCalculatorPageTest" time="0.492"/>
+  <testcase name="verifyDiscountNumber2" classname="com.testing.FeeCalculatorPageTest" time="0.561"/>
+  <testcase name="verifystudentNamePlaceholder" classname="com.testing.FeeCalculatorPageTest" time="0.051"/>
+  <testcase name="FeedbackPageTitlet" classname="com.testing.FeedbackPageTest" time="0.016"/>
+  <testcase name="testRatingRequired" classname="com.testing.FeedbackPageTest" time="0.379"/>
+  <testcase name="testcommentsRequired" classname="com.testing.FeedbackPageTest" time="0.547"/>
+  <testcase name="validateEmptyBox" classname="com.testing.FeedbackPageTest" time="0.197"/>
+  <testcase name="validateFeedbacksubmit" classname="com.testing.FeedbackPageTest" time="0.719"/>
+  <testcase name="validateconfirmation" classname="com.testing.FeedbackPageTest" time="0.643"/>
+  <testcase name="verifycommentsPlaceholder" classname="com.testing.FeedbackPageTest" time="0.06"/>
+  <testcase name="verifystudentNamePlaceholder" classname="com.testing.FeedbackPageTest" time="0.052"/>
+</testsuite>

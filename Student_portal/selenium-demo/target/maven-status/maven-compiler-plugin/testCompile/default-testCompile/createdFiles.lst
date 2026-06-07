@@ -1,0 +1,8 @@
+com\pages\FeedbackPage.class
+com\testing\FeeCalculatorPageTest.class
+com\pages\LoginPage.class
+com\pages\CourseEnquiryPage.class
+com\testing\AppTest.class
+com\testing\CourseEnquiryPageTest.class
+com\pages\FeeCalculatorPage.class
+com\testing\FeedbackPageTest.class

@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="CalculateJavaFullStackfee">CalculateJavaFullStackfee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="CalculateSoftwareTestingfee">CalculateSoftwareTestingfee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="CourseEnquiryPageTitlet">CourseEnquiryPageTitlet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="EmptyPassword">EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="FeeCalculatorPageTitlet">FeeCalculatorPageTitlet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="FeedbackPageTitlet">FeedbackPageTitlet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="InvalidPassword">InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="InvalidUser">InvalidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="courseTest">courseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="invalidemail">invalidemail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="ivalidmobile">ivalidmobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="loginPageTitlet">loginPageTitlet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="testRatingRequired">testRatingRequired</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="testcommentsRequired">testcommentsRequired</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="usernameTest">usernameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="validCridential">validCridential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="validateEmptyBox">validateEmptyBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="validateEmptyBox">validateEmptyBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="validateEmptyBox">validateEmptyBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="validateEmptyBox">validateEmptyBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="validateFeedbacksubmit">validateFeedbacksubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="validateconfirmation">validateconfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="verifyCourseSelection">verifyCourseSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="verifyCourseSelection">verifyCourseSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="verifyDiscountNumber">verifyDiscountNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="verifyDiscountNumber1">verifyDiscountNumber1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="verifyDiscountNumber2">verifyDiscountNumber2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="verifyPasswordPlaceholder">verifyPasswordPlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.AppTest" class="method navigator-link" hash-for-method="verifyUsernamePlaceholder">verifyUsernamePlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="verifycommentsPlaceholder">verifycommentsPlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="verifyemailPlaceholder">verifyemailPlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="verifymobilePlaceholder">verifymobilePlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.CourseEnquiryPageTest" class="method navigator-link" hash-for-method="verifystudentNamePlaceholder">verifystudentNamePlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeedbackPageTest" class="method navigator-link" hash-for-method="verifystudentNamePlaceholder">verifystudentNamePlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.testing.FeeCalculatorPageTest" class="method navigator-link" hash-for-method="verifystudentNamePlaceholder">verifystudentNamePlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.CourseEnquiryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CourseEnquiryPageTitlet">
+                  </a> <!-- CourseEnquiryPageTitlet -->
+                  <span class="method-name">CourseEnquiryPageTitlet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseTest">
+                  </a> <!-- courseTest -->
+                  <span class="method-name">courseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidemail">
+                  </a> <!-- invalidemail -->
+                  <span class="method-name">invalidemail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ivalidmobile">
+                  </a> <!-- ivalidmobile -->
+                  <span class="method-name">ivalidmobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameTest">
+                  </a> <!-- usernameTest -->
+                  <span class="method-name">usernameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmptyBox">
+                  </a> <!-- validateEmptyBox -->
+                  <span class="method-name">validateEmptyBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCourseSelection">
+                  </a> <!-- verifyCourseSelection -->
+                  <span class="method-name">verifyCourseSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyemailPlaceholder">
+                  </a> <!-- verifyemailPlaceholder -->
+                  <span class="method-name">verifyemailPlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymobilePlaceholder">
+                  </a> <!-- verifymobilePlaceholder -->
+                  <span class="method-name">verifymobilePlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifystudentNamePlaceholder">
+                  </a> <!-- verifystudentNamePlaceholder -->
+                  <span class="method-name">verifystudentNamePlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.AppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyPassword">
+                  </a> <!-- EmptyPassword -->
+                  <span class="method-name">EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPassword">
+                  </a> <!-- InvalidPassword -->
+                  <span class="method-name">InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidUser">
+                  </a> <!-- InvalidUser -->
+                  <span class="method-name">InvalidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitlet">
+                  </a> <!-- loginPageTitlet -->
+                  <span class="method-name">loginPageTitlet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCridential">
+                  </a> <!-- validCridential -->
+                  <span class="method-name">validCridential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmptyBox">
+                  </a> <!-- validateEmptyBox -->
+                  <span class="method-name">validateEmptyBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordPlaceholder">
+                  </a> <!-- verifyPasswordPlaceholder -->
+                  <span class="method-name">verifyPasswordPlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsernamePlaceholder">
+                  </a> <!-- verifyUsernamePlaceholder -->
+                  <span class="method-name">verifyUsernamePlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.FeeCalculatorPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CalculateJavaFullStackfee">
+                  </a> <!-- CalculateJavaFullStackfee -->
+                  <span class="method-name">CalculateJavaFullStackfee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CalculateSoftwareTestingfee">
+                  </a> <!-- CalculateSoftwareTestingfee -->
+                  <span class="method-name">CalculateSoftwareTestingfee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FeeCalculatorPageTitlet">
+                  </a> <!-- FeeCalculatorPageTitlet -->
+                  <span class="method-name">FeeCalculatorPageTitlet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmptyBox">
+                  </a> <!-- validateEmptyBox -->
+                  <span class="method-name">validateEmptyBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCourseSelection">
+                  </a> <!-- verifyCourseSelection -->
+                  <span class="method-name">verifyCourseSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiscountNumber">
+                  </a> <!-- verifyDiscountNumber -->
+                  <span class="method-name">verifyDiscountNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiscountNumber1">
+                  </a> <!-- verifyDiscountNumber1 -->
+                  <span class="method-name">verifyDiscountNumber1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiscountNumber2">
+                  </a> <!-- verifyDiscountNumber2 -->
+                  <span class="method-name">verifyDiscountNumber2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifystudentNamePlaceholder">
+                  </a> <!-- verifystudentNamePlaceholder -->
+                  <span class="method-name">verifystudentNamePlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.FeedbackPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FeedbackPageTitlet">
+                  </a> <!-- FeedbackPageTitlet -->
+                  <span class="method-name">FeedbackPageTitlet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRatingRequired">
+                  </a> <!-- testRatingRequired -->
+                  <span class="method-name">testRatingRequired</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcommentsRequired">
+                  </a> <!-- testcommentsRequired -->
+                  <span class="method-name">testcommentsRequired</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmptyBox">
+                  </a> <!-- validateEmptyBox -->
+                  <span class="method-name">validateEmptyBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeedbacksubmit">
+                  </a> <!-- validateFeedbacksubmit -->
+                  <span class="method-name">validateFeedbacksubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateconfirmation">
+                  </a> <!-- validateconfirmation -->
+                  <span class="method-name">validateconfirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycommentsPlaceholder">
+                  </a> <!-- verifycommentsPlaceholder -->
+                  <span class="method-name">verifycommentsPlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifystudentNamePlaceholder">
+                  </a> <!-- verifystudentNamePlaceholder -->
+                  <span class="method-name">verifystudentNamePlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testing.AppTest&quot;/&gt;
+      &lt;class name=&quot;com.testing.CourseEnquiryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.testing.FeeCalculatorPageTest&quot;/&gt;
+      &lt;class name=&quot;com.testing.FeedbackPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCourseSelection')
+data.setCell(0, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(0, 3, 1017);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateFeedbacksubmit')
+data.setCell(1, 2, 'com.testing.FeedbackPageTest')
+data.setCell(1, 3, 720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateconfirmation')
+data.setCell(2, 2, 'com.testing.FeedbackPageTest')
+data.setCell(2, 3, 644);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CalculateSoftwareTestingfee')
+data.setCell(3, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(3, 3, 627);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyDiscountNumber')
+data.setCell(4, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(4, 3, 603);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'courseTest')
+data.setCell(5, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(5, 3, 591);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CalculateJavaFullStackfee')
+data.setCell(6, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(6, 3, 591);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyDiscountNumber2')
+data.setCell(7, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(7, 3, 561);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcommentsRequired')
+data.setCell(8, 2, 'com.testing.FeedbackPageTest')
+data.setCell(8, 3, 547);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDiscountNumber1')
+data.setCell(9, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(9, 3, 493);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ivalidmobile')
+data.setCell(10, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(10, 3, 489);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCourseSelection')
+data.setCell(11, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(11, 3, 415);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validCridential')
+data.setCell(12, 2, 'com.testing.AppTest')
+data.setCell(12, 3, 414);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invalidemail')
+data.setCell(13, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(13, 3, 408);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRatingRequired')
+data.setCell(14, 2, 'com.testing.FeedbackPageTest')
+data.setCell(14, 3, 379);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'usernameTest')
+data.setCell(15, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(15, 3, 300);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateEmptyBox')
+data.setCell(16, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(16, 3, 247);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateEmptyBox')
+data.setCell(17, 2, 'com.testing.AppTest')
+data.setCell(17, 3, 224);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'InvalidPassword')
+data.setCell(18, 2, 'com.testing.AppTest')
+data.setCell(18, 3, 216);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'InvalidUser')
+data.setCell(19, 2, 'com.testing.AppTest')
+data.setCell(19, 3, 210);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'EmptyPassword')
+data.setCell(20, 2, 'com.testing.AppTest')
+data.setCell(20, 3, 208);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateEmptyBox')
+data.setCell(21, 2, 'com.testing.FeedbackPageTest')
+data.setCell(21, 3, 197);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateEmptyBox')
+data.setCell(22, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(22, 3, 192);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifymobilePlaceholder')
+data.setCell(23, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(23, 3, 72);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifystudentNamePlaceholder')
+data.setCell(24, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(24, 3, 61);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifycommentsPlaceholder')
+data.setCell(25, 2, 'com.testing.FeedbackPageTest')
+data.setCell(25, 3, 60);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyPasswordPlaceholder')
+data.setCell(26, 2, 'com.testing.AppTest')
+data.setCell(26, 3, 59);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyemailPlaceholder')
+data.setCell(27, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(27, 3, 59);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyUsernamePlaceholder')
+data.setCell(28, 2, 'com.testing.AppTest')
+data.setCell(28, 3, 56);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifystudentNamePlaceholder')
+data.setCell(29, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(29, 3, 51);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifystudentNamePlaceholder')
+data.setCell(30, 2, 'com.testing.FeedbackPageTest')
+data.setCell(30, 3, 50);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'FeeCalculatorPageTitlet')
+data.setCell(31, 2, 'com.testing.FeeCalculatorPageTest')
+data.setCell(31, 3, 19);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'FeedbackPageTitlet')
+data.setCell(32, 2, 'com.testing.FeedbackPageTest')
+data.setCell(32, 3, 16);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'CourseEnquiryPageTitlet')
+data.setCell(33, 2, 'com.testing.CourseEnquiryPageTest')
+data.setCell(33, 3, 15);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'loginPageTitlet')
+data.setCell(34, 2, 'com.testing.AppTest')
+data.setCell(34, 3, 9);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.AppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyPassword</span>
+                <span class="method-start">1488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">1697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidPassword</span>
+                <span class="method-start">2915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">3132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidUser</span>
+                <span class="method-start">4322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitlet</span>
+                <span class="method-start">5748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">5757 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCridential</span>
+                <span class="method-start">7358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">7772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmptyBox</span>
+                <span class="method-start">9274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">9499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPasswordPlaceholder</span>
+                <span class="method-start">11036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">11096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsernamePlaceholder</span>
+                <span class="method-start">12822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">12879 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.CourseEnquiryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CourseEnquiryPageTitlet</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">14458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">courseTest</span>
+                <span class="method-start">16000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">16592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidemail</span>
+                <span class="method-start">18088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">18497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ivalidmobile</span>
+                <span class="method-start">19966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">20456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameTest</span>
+                <span class="method-start">22241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">22542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmptyBox</span>
+                <span class="method-start">23996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCourseSelection</span>
+                <span class="method-start">25750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">26768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyemailPlaceholder</span>
+                <span class="method-start">28668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">28730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifymobilePlaceholder</span>
+                <span class="method-start">30696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">30769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifystudentNamePlaceholder</span>
+                <span class="method-start">32772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">32835 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.FeeCalculatorPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CalculateJavaFullStackfee</span>
+                <span class="method-start">34835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">35427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CalculateSoftwareTestingfee</span>
+                <span class="method-start">37392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">38020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FeeCalculatorPageTitlet</span>
+                <span class="method-start">39870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">39890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">40260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmptyBox</span>
+                <span class="method-start">42172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">42419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCourseSelection</span>
+                <span class="method-start">44240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">44656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDiscountNumber</span>
+                <span class="method-start">46111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">46715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDiscountNumber1</span>
+                <span class="method-start">48816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">49309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">49505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDiscountNumber2</span>
+                <span class="method-start">50796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">51357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifystudentNamePlaceholder</span>
+                <span class="method-start">52950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">53001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.FeedbackPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FeedbackPageTitlet</span>
+                <span class="method-start">54644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRatingRequired</span>
+                <span class="method-start">56243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">56622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcommentsRequired</span>
+                <span class="method-start">58168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">58716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmptyBox</span>
+                <span class="method-start">60265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">60462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">60643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFeedbacksubmit</span>
+                <span class="method-start">61992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">62897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateconfirmation</span>
+                <span class="method-start">64196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">64840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifycommentsPlaceholder</span>
+                <span class="method-start">66435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">66496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifystudentNamePlaceholder</span>
+                <span class="method-start">68157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">68209 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
